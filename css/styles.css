@@ -8,10 +8,20 @@ orange: #E27C3D*/
 
 #footer{
 	width:100%;
-	height:50px;
+	height:10px;
 	background: #666;
 	margin-top:3%;
 }
+
+.ui.menu{
+	margin:0;
+
+}
+
+.ui.menu:first-child{
+	margin-top: 4rem;
+}
+
 
 .container{
 	width:100%;
@@ -27,6 +37,7 @@ line-height: 1.25em;
 font-size: 3.28em; 
 text-transform: uppercase;
 margin: 0 0 23px 0;
+color:#334D5C;
 }
 
 
@@ -48,19 +59,30 @@ font-family: 'Droid Serif', serif;
     margin: 0 0 23px 0;
 }
 
-img{
-	margin:.5%;
+ul{
+	list-style: none;
+}
+
+a:link, a:visited {
+	color:#DE5948;
 }
 
 
-.one, .three{
-	background: #E4E7EA;
+a:hover, a:active {
+  color: #E27C3D;
 }
 
-.top, .two, .four{
-	background: #334D5C;
+
+.top{
+	background: #43B19C;
+	padding:5% 0;
+
 }
 
-a:link{
-	color:#333;
+.top h1 {
+	font-size: 10em;
+}
+
+.top h2 {
+	padding-bottom: 1em;
 }
