@@ -86,3 +86,28 @@ a:hover, a:active {
 .top h2 {
 	padding-bottom: 1em;
 }
+
+
+
+@media screen and (max-width: 768px) {
+	/* #menu is the original menu */
+	#menu {
+		display:none;
+	}
+	.slicknav_menu{
+		background: #fff;
+		margin-bottom: 0;
+
+	}
+}
+
+@media screen and (min-width: 769px) {
+	/* #menu is the original menu */
+	#menu {
+		display:block;
+	}
+	.slicknav_menu {
+	display:none;
+	}
+
+}
