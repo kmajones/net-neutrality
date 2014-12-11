@@ -97,6 +97,10 @@ a:hover, a:active {
 	.slicknav_menu{
 		background: #fff;
 		margin-bottom: 0;
+		position:fixed;
+		top:0;
+		z-index: 1000;
+		width:100%;
 
 	}
 }
