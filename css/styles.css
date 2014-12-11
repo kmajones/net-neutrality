@@ -1,3 +1,11 @@
+/*Colors
+blue neutral: #334D5C ;
+neutral gray: fff
+yellow: #F1C746
+red: #DE5948
+teal: #43B19C;
+orange: #E27C3D*/
+
 #footer{
 	width:100%;
 	height:50px;
@@ -36,19 +44,21 @@ p {
 
 font-family: 'Droid Serif', serif;
     font-size: 1.05em;
-    line-height: 1.45em;
+    line-height: 1.em;
     margin: 0 0 23px 0;
 }
 
-body{}
+img{
+	margin:.5%;
+}
 
 
 .one, .three{
-	background: #FFF;
+	background: #E4E7EA;
 }
 
 .top, .two, .four{
-	background: #3E606F;
+	background: #334D5C;
 }
 
 a:link{
